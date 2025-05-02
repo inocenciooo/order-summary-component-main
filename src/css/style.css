@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --Paleblue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+
+  --Font-size-paragraph: 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+button {
+  all: unset;
+  cursor: pointer;
+}
+body {
+  font-size: var(--Font-size-paragraph);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Paleblue);
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  font-family: "Red Hat Display";
+}
+img {
+  width: 100%;
+}
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+section {
+  padding: 25px 50px;
+}
+
+.plan {
+  background-color: var(--Very-pale-blue);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.card .summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .summary p {
+    text-align: center;
+    margin: 20px 0;
+    color: #808a9f;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons .proced{
+    background-color: var(--Bright-blue);
+    color: white;
+    padding: 7px 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.buttons .cancel{
+    color: #808a9f;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+
+
+.attribution {
+  font-size: 13px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
