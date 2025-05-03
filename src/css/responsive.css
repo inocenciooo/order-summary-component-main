@@ -1,0 +1,12 @@
+@media (max-width: 450px) {
+  body {
+    background-image: url(../images/pattern-background-mobile.svg);
+  }
+  .card {
+    width: 90vw;
+    height: auto;
+  }
+  section {
+    padding: 25px 35px;
+  }
+}
