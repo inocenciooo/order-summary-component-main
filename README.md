@@ -29,10 +29,10 @@ Este projeto foi desenvolvido como parte de um desafio da **Frontend Mentor** co
 ## 🖥️ Resultado
 
 ### 💻 Versão Desktop  
-<img src="./resultado/Macbook-Air-1559x975.png" style="display: block; margin: auto;">
+<img src="./Resultado/Macbook-Air-1559x975.png" style="display: block; margin: auto;">
 
 ### 📱 Versão Mobile  
-<img src="./resultado/Pixel-7-Pro-383x813.png" style="display: block; margin: auto;">
+<img src="./Resultado/Pixel-7-Pro-383x813.png" style="display: block; margin: auto;">
 
 ---
 
