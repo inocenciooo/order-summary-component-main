@@ -166,6 +166,7 @@ section {
   font-size: 14px;
   text-align: center;
   font-weight: 500;
+  margin-bottom: 15px;
 }
 .attribution a {
   color: var(--Bright-blue);
